@@ -1,0 +1,34 @@
+/* Stylesheet 1: */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+	font-family: Montserrat, sans-serif;
+	font-weight: 300;
+	background-color: #2a2a72;
+	color: white;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+.thumbnail {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: filter .5s ease-in; 
+}
+
+.thumbnail:hover {
+	-webkit-filter: grayscale(0%); /* Safari */
+	filter: grayscale(0%);
+}
+
+.homebutton {
+	position: absolute;
+	color: white;
+}
